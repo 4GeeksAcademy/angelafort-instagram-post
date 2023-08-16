@@ -1,0 +1,71 @@
+body { 
+    background: #000000;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header { 
+    padding: 10px;
+    background: white;
+    display: flex;
+}
+div.post-header{
+    height: 60px;
+    display:flex;
+}
+div.post {
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div.post img{
+width: 100%;
+}
+div.name{
+    padding: 19px;
+    position: absolute;
+    margin-left: 29px;
+}
+div.post .post-header div:last-child{
+    width: 80%;
+    padding: 18px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+div.post h2, div.post p {
+    padding: 10px;
+    margin: 0;
+}
+.user {
+    text-align: left;
+}
+div.container {
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+div.post-icons {
+    display: flex;
+    margin: 6px;
+    padding: 8px;
+}
+div.post .post-icons div:last-child{
+    display: inline-block;
+    width: 71%;
+    padding: 5px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+.space {
+    margin: 5px;
+}
+.space2 {
+    margin-top: 20px; 
+    margin-right: 8px; 
+    margin-bottom: 20px; 
+    margin-left: 15px;
+}
+div.text{
+    margin-top: 12px;
+   margin-bottom: 25px;
+   margin-left: 5px;
+}
